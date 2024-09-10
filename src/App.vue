@@ -2,6 +2,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import Nav from "./components/nav.vue";
 import Footer from "./components/footer.vue";
+import Button from "./components/button.vue";
 </script>
 
 <template>
@@ -13,6 +14,9 @@ import Footer from "./components/footer.vue";
 		</div>
 		<main class="flex-grow">
 			<div class="text-3xl text-lime-500">COucou</div>
+			<div>
+				<Button> Cliquez ici </Button>
+			</div>
 		</main>
 		<Footer />
 	</div>
