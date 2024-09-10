@@ -1,13 +1,19 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
 import Nav from "./components/nav.vue";
+import Footer from "./components/footer.vue";
 </script>
 
 <template>
-	<div class="flex flex-col h-full">
-		<header>
-			<Nav />
-		</header>
+	<div class="min-h-screen flex flex-col">
+		<div class="flex flex-col h-full">
+			<header>
+				<Nav />
+			</header>
+		</div>
+		<main class="flex-grow">
+			<div class="text-3xl text-lime-500">COucou</div>
+		</main>
+		<Footer />
 	</div>
-	<div class="text-3xl text-lime-500">COucou</div>
 </template>
