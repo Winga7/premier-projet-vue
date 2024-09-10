@@ -6,7 +6,7 @@ import Nav from "./components/nav.vue";
 <template>
 	<div class="flex flex-col h-full">
 		<header>
-			<nav />
+			<Nav />
 		</header>
 	</div>
 	<div class="text-3xl text-lime-500">COucou</div>
